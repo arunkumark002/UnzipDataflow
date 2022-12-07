@@ -1,0 +1,5 @@
+H,DWH_DictionaryItem,CLM_FORD_QA_DWH_DictionaryItem_0000001394_20220909003000.txt,20220909003000
+342,"{""en"":""DATE_TIME_ATTRIBUTES""}",DATE_TIME_ATTRIBUTES,MONTH,,"{""en"":""Month""}",
+344,"{""en"":""GENERAL_STATUSES""}",GENERAL_STATUSES,A,,"{""en"":""Active""}",
+345,"{""en"":""GENERAL_STATUSES""}",GENERAL_STATUSES,I,,"{""en"":""Inactive""}",
+T,2677

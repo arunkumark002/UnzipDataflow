@@ -1,0 +1,24 @@
+H,ATTRIBUTES,CLM_FORD_QA_DWH_TransactionAttributes_0000001394_20220909003200.txt,20220909003200
+2222502,92432452,2022-09-08,C,,T,3450,Sysdate(),LastActivityDate,"{""en"":""LastActivityDate""}","{""en"":""Profile data - Last activity date for points renewal""}",,USA,USA
+2222506,92432456,2022-09-08,C,,T,3450,Sysdate(),LastActivityDate,"{""en"":""LastActivityDate""}","{""en"":""Profile data - Last activity date for points renewal""}",,USA,USA
+2222521,92432481,2022-09-08,C,,T,3450,Sysdate(),LastActivityDate,"{""en"":""LastActivityDate""}","{""en"":""Profile data - Last activity date for points renewal""}",,USA,USA
+2222504,92432454,2022-09-08,C,,T,100022,Sysdate(),LastActivityDate,"{""en"":""LastActivityDate""}","{""en"":""Profile data - Last activity date for points renewal""}",,CAN,CAN
+2222509,92432457,2022-09-08,C,,T,100022,Sysdate(),LastActivityDate,"{""en"":""LastActivityDate""}","{""en"":""Profile data - Last activity date for points renewal""}",,CAN,CAN
+2222512,92432458,2022-09-08,C,,T,100022,Sysdate(),LastActivityDate,"{""en"":""LastActivityDate""}","{""en"":""Profile data - Last activity date for points renewal""}",,CAN,CAN
+2222501,92432451,,A,,T,102952,DateNull(),startDay1,"{""en"":""startDay1""}","{""en"":""EV - startDay1 - modem activation for ModelYear >= 2020 and fuelType = I""}",,USA,USA
+2222508,92432457,2022-09-05 00:00:00,C,,T,99978,customer.Attribute('ProgramTCDate'),FirstTCDate,"{""en"":""First TC acceptance date""}","{""en"":""Profile data - First FPR/LAR TC acceptance Date""}",,CAN,CAN
+2222511,92432458,2022-09-05 00:00:00,C,,T,99978,customer.Attribute('ProgramTCDate'),FirstTCDate,"{""en"":""First TC acceptance date""}","{""en"":""Profile data - First FPR/LAR TC acceptance Date""}",,CAN,CAN
+2222507,92432456,2022-09-08,C,"And(transaction.totalPointsValue=0, customer.Attribute('LastActivityDateNoPoints')<transaction.date)",T,118002,transaction.date,LastActivityDateNoPoints,"{""en"":""Last activity date no points""}",,,USA,USA
+2222520,92432469,2022-09-08,C,"And(transaction.totalPointsValue=0, customer.Attribute('LastActivityDateNoPoints')<transaction.date)",T,118002,transaction.date,LastActivityDateNoPoints,"{""en"":""Last activity date no points""}",,,USA,USA
+2222522,92432481,2022-09-09,C,"And(transaction.totalPointsValue=0, customer.Attribute('LastActivityDateNoPoints')<transaction.date)",T,118002,transaction.date,LastActivityDateNoPoints,"{""en"":""Last activity date no points""}",,,USA,USA
+2222503,92432452,2022-09-08,C,"And(transaction.totalPointsValue!=0, customer.Attribute('LastActivityDatePoints')<transaction.date)",T,118002,transaction.date,LastActivityDatePoints,"{""en"":""Last activity date points""}",,,USA,USA
+2222505,92432454,2022-09-08,C,"And(transaction.totalPointsValue!=0, customer.Attribute('LastActivityDatePoints')<transaction.date)",T,118003,transaction.date,LastActivityDatePoints,"{""en"":""Last activity date points""}",,,CAN,CAN
+2222514,92432459,2022-09-08,C,"And(transaction.totalPointsValue!=0, customer.Attribute('LastActivityDatePoints')<transaction.date)",T,118003,transaction.date,LastActivityDatePoints,"{""en"":""Last activity date points""}",,,CAN,CAN
+2222515,92432460,2022-09-08,C,"And(transaction.totalPointsValue!=0, customer.Attribute('LastActivityDatePoints')<transaction.date)",T,118003,transaction.date,LastActivityDatePoints,"{""en"":""Last activity date points""}",,,CAN,CAN
+2222510,92432457,2022-09-05,C,"And(transaction.totalPointsValue=0, customer.Attribute('LastActivityDateNoPoints')<transaction.date)",T,118003,transaction.date,LastActivityDateNoPoints,"{""en"":""Last activity date no points""}",,,CAN,CAN
+2222513,92432458,2022-09-05,C,"And(transaction.totalPointsValue=0, customer.Attribute('LastActivityDateNoPoints')<transaction.date)",T,118003,transaction.date,LastActivityDateNoPoints,"{""en"":""Last activity date no points""}",,,CAN,CAN
+2222517,92432466,1,C,Variable('rwdChoice')='pmp',T,129954,TRUE,pmpToProcess,"{""en"":""pmpToProcess""}",,,CAN,CAN
+2222519,92432468,1,C,Variable('rwdChoice')='pmp',T,129954,TRUE,pmpToProcess,"{""en"":""pmpToProcess""}",,,CAN,CAN
+2222516,92432466,BZ34J7W890121TEST,C,,T,129954,transaction.Attribute('VIN'),rewardChoice,"{""en"":""rewardChoice""}",,,CAN,CAN
+2222518,92432468,BZ34J7W890221TEST,C,,T,129954,transaction.Attribute('VIN'),rewardChoice,"{""en"":""rewardChoice""}",,,CAN,CAN
+T,22

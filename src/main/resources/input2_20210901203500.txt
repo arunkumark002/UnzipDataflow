@@ -1,0 +1,2 @@
+11418287,817012922,FPRRecTier,FPR,SILVER,"And(Variable('CurrentTRN'), Add(customer.Points('USA_F_MLST'), transaction.Points('USA_F_MLST'))>=120)",T,USA,USA
+11421010,817144617,CFPRSale_M,FPR,SILVER,"And(Variable('DowngradeS')=TRUE, Variable('oldTier')='SILVER', Add(customer.Points('USA_F_MLST'), transaction.Points('USA_F_MLST'))<120)",T,USA,USA
