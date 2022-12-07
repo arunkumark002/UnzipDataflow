@@ -1,0 +1,12 @@
+<settings>
+    <proxies>
+        <proxy>
+            <id>ford-proxy</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>internet.ford.com</host>
+            <port>83</port>
+            <nonProxyHosts>*.ford.com</nonProxyHosts>
+        </proxy>
+    </proxies>
+</settings>
